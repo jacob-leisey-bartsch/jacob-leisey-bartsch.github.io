@@ -17,7 +17,7 @@ I have been an avid volleyball player for about 20 years. In addition to playing
 
 
 ## Chess
-While I first learned to play chess when I was 4 years old, I only truly became enamored with the game during the covid-19 lockdown. Since then, I have frequently play matches online at chess.com. My preferred time control is 1-0, meaning 1 minute allotted to each player with no additional time granted after making a move.
+While I first learned to play chess when I was 4 years old, I only truly became enamored with the game during the covid-19 lockdown. Since then, I have frequently played matches online at chess.com. My preferred time control is 1-0, meaning 1 minute allotted to each player with no additional time granted after making a move.
 
 ## Traveling
 I absolutely love exploring and experiencing different cities and countries! Here are some favorite sites from my more recent excursions:
