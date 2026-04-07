@@ -20,7 +20,7 @@ Led internal research into state-of-the-art dashboarding technologies, presented
 
 # VISIMO
 ## Agility Prime
-<div style="background-color: #303136; border-radius: 15px;">
+<div style="color: #f5fcff; background-color: #303136; border-radius: 15px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; margin-bottom: 10px;">
 	<p>Goal:</p>
 	<ul>
 		<li>Develop a real-time object detection system capable of identifying collision hazards in first-person aerial footage and deploy an accessible web portal enabling users to analyze drone video without specialized tooling.</li>
