@@ -20,7 +20,7 @@ Led internal research into state-of-the-art dashboarding technologies, presented
 
 # VISIMO
 ## Agility Prime
-<div style="background-color: salmon;">
+<!-- <div style="background-color: salmon;"> -->
 Goal:
 * Develop a real-time object detection system capable of identifying collision hazards in first-person aerial footage and deploy an accessible web portal enabling users to analyze drone video without specialized tooling.
 
@@ -47,7 +47,7 @@ Results:
 * Trained an object detection model that identified collision hazards up to 0.5 seconds earlier than the baseline benchmark model, improving reaction time for downstream avoidance systems.
 * Built and deployed an interactive web application enabling users to upload drone footage and receive annotated hazard overlays within seconds.
 
-</div>
+<!-- </div> -->
 
 ## NIXN
 Developed a multi-page web application enabling construction safety specialists to record workplace safety violations and receive recommended remediation actions to reduce risk. Built an administrative portal allowing users to manage violations and remediation guidance.
