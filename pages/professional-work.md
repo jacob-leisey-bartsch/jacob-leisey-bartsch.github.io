@@ -20,34 +20,47 @@ Led internal research into state-of-the-art dashboarding technologies, presented
 
 # VISIMO
 ## Agility Prime
-<!-- <div style="background-color: salmon;"> -->
-Goal:
-* Develop a real-time object detection system capable of identifying collision hazards in first-person aerial footage and deploy an accessible web portal enabling users to analyze drone video without specialized tooling.
-
-Tech Stack:
-
-* Training Data:
-	- 100,000+ annotated frames from VisDrone dataset
-	- ~15 minutes of proprietary footage
-
-* Model:
-	- YOLO-based object detection model (trained on VisDrone + proprietary footage)
-	- Google Colab GPU instances for model training and hyperparameter tuning
-
-* Data Processing:
-	- Python (OpenCV) for frame extraction, preprocessing, and bounding box rendering
-
-* Application Layer:
-	- Python (Streamlit) for interactive web interface
-
-* Deployment:
-	- Docker containerization for reproducible local deployment
-
-Results:
-* Trained an object detection model that identified collision hazards up to 0.5 seconds earlier than the baseline benchmark model, improving reaction time for downstream avoidance systems.
-* Built and deployed an interactive web application enabling users to upload drone footage and receive annotated hazard overlays within seconds.
-
-<!-- </div> -->
+<div style="background-color: #303136; border-radius: 15px;">
+	<p>Goal:</p>
+	<ul>
+		<li>Develop a real-time object detection system capable of identifying collision hazards in first-person aerial footage and deploy an accessible web portal enabling users to analyze drone video without specialized tooling.</li>
+	</ul>
+	<p>Tech Stack:</p>
+	<ul>
+		<li>Training Data:
+			<ul>
+				<li>100,000+ annotated frames from VisDrone dataset</li>
+				<li>~15 minutes of proprietary footage</li>
+			</ul>
+		</li>
+		<li>Model:
+			<ul>
+				<li>YOLO-based object detection model (trained on VisDrone + proprietary footage)</li>
+				<li>Google Colab GPU instances for model training and hyperparameter tuning</li>
+			</ul>
+		</li>
+		<li>Data Processing:
+			<ul>
+				<li>Python (OpenCV) for frame extraction, preprocessing, and bounding box rendering</li>
+			</ul>
+		</li>
+		<li>Application Layer:
+			<ul>
+				<li>Python (Streamlit) for interactive web interface</li>
+			</ul>
+		</li>
+		<li>Deployment:
+			<ul>
+				<li>Docker containerization for reproducible local deployment</li>
+			</ul>
+		</li>
+	</ul>
+	<p>Results:</p>
+	<ul>
+		<li>Trained an object detection model that identified collision hazards up to 0.5 seconds earlier than the baseline benchmark model, improving reaction time for downstream avoidance systems.</li>
+		<li>Built and deployed an interactive web application enabling users to upload drone footage and receive annotated hazard overlays within seconds.</li>
+	</ul>
+</div>
 
 ## NIXN
 Developed a multi-page web application enabling construction safety specialists to record workplace safety violations and receive recommended remediation actions to reduce risk. Built an administrative portal allowing users to manage violations and remediation guidance.
