@@ -20,27 +20,27 @@ Led internal research into state-of-the-art dashboarding technologies, presented
 
 # VISIMO
 ## Agility Prime
-Goal:
-* Develop a real-time object detection system capable of identifying collision hazards in first-person aerial footage and deploy an accessible web portal enabling users to analyze drone video without specialized tooling.
+	Goal:
+	* Develop a real-time object detection system capable of identifying collision hazards in first-person aerial footage and deploy an accessible web portal enabling users to analyze drone video without specialized tooling.
 
-Tech Stack:
+	Tech Stack:
 
-* Training Data:
-	- 100,000+ annotated frames from VisDrone dataset
-	- ~15 minutes of proprietary footage
+	* Training Data:
+		- 100,000+ annotated frames from VisDrone dataset
+		- ~15 minutes of proprietary footage
 
-* Model:
-	- YOLO-based object detection model (trained on VisDrone + proprietary footage)
-	- Google Colab GPU instances for model training and hyperparameter tuning
+	* Model:
+		- YOLO-based object detection model (trained on VisDrone + proprietary footage)
+		- Google Colab GPU instances for model training and hyperparameter tuning
 
-* Data Processing:
-	- Python (OpenCV) for frame extraction, preprocessing, and bounding box rendering
+	* Data Processing:
+		- Python (OpenCV) for frame extraction, preprocessing, and bounding box rendering
 
-* Application Layer:
-	- Python (Streamlit) for interactive web interface
+	* Application Layer:
+		- Python (Streamlit) for interactive web interface
 
-* Deployment:
-	- Docker containerization for reproducible local deployment
+	* Deployment:
+		- Docker containerization for reproducible local deployment
 
 Results:
 * Trained an object detection model that identified collision hazards up to 0.5 seconds earlier than the baseline benchmark model, improving reaction time for downstream avoidance systems.
