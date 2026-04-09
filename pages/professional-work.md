@@ -21,8 +21,8 @@ Led internal research into state-of-the-art dashboarding technologies, presented
 
 
 # VISIMO
-## Agility Prime
 <div class="jlb-dark-section">
+	<h2 id="agility-prime">Agility Prime</h2>
 	<p>Goal:</p>
 	<ul>
 		<li>Develop a real-time object detection system capable of identifying collision hazards in first-person aerial footage and deploy an accessible web portal enabling users to analyze drone video without specialized tooling.</li>
