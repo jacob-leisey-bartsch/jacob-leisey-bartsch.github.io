@@ -10,15 +10,20 @@ Due to the confidential/proprietary nature of many of these projects, I am unabl
 * [Down Time](https://jacob-leisey-bartsch.github.io/pages/down-time)
 
 # BNY
-## Dockerization
-Containerized our python applications to support the proper testing of applications prior to deployments, which led to a significant decrease in the number of required redeployments. Additionally, I assembled a set of Dockerfiles that allowed the test environments to access hard-to-reach internal package repositories.
+<div class="jlb-dark-section">
+	<h2 id="dockerization">Dockerization</h2>
+	<p>Containerized our python applications to support the proper testing of applications prior to deployments, which led to a significant decrease in the number of required redeployments. Additionally, I assembled a set of Dockerfiles that allowed the test environments to access hard-to-reach internal package repositories.</p>
+</div>
 
-## Python Packaging
-Designed and maintained a multi-module Python package that standardized common functionality across projects, including portfolio uploads/downloads, return calculations, and API data retrieval.
+<div class="jlb-dark-section">
+	<h2 id="python-packaging">Python Packaging</h2>
+	<p>Designed and maintained a multi-module Python package that standardized common functionality across projects, including portfolio uploads/downloads, return calculations, and API data retrieval.</p>
+</div>
 
-## Dashboarding
-Led internal research into state-of-the-art dashboarding technologies, presented findings to senior management, and ultimately convinced them to transition away from Dash and adopt Streamlit instead.
-
+<div class="jlb-dark-section">
+	<h2 id="Dashboarding">Dashboarding</h2>
+	<p>Led internal research into state-of-the-art dashboarding technologies, presented findings to senior management, and ultimately convinced them to transition away from Dash and adopt Streamlit instead.</p>
+</div>
 
 # VISIMO
 <div class="jlb-dark-section">
@@ -64,14 +69,23 @@ Led internal research into state-of-the-art dashboarding technologies, presented
 	</ul>
 </div>
 
-## NIXN
-Developed a multi-page web application enabling construction safety specialists to record workplace safety violations and receive recommended remediation actions to reduce risk. Built an administrative portal allowing users to manage violations and remediation guidance.
+<div class="jlb-dark-section">
+	<h2 id="nixn">NIXN</h2>
+	<p>Developed a multi-page web application enabling construction safety specialists to record workplace safety violations and receive recommended remediation actions to reduce risk. Built an administrative portal allowing users to manage violations and remediation guidance.</p>
+</div>
 
-## Virtual Waiting Room
-Developed a multi-page web application that enabled medical offices to operate virtual waiting rooms during the pandemic, reducing unnecessary in-person contact between patients. Built integrated messaging, automated SMS notifications, and an administrative portal for managing patient data and site content.
+<div class="jlb-dark-section">
+	<h2 id="virtual-waiting-room">Virtual Waiting Room</h2>
+	<p>Developed a multi-page web application that enabled medical offices to operate virtual waiting rooms during the pandemic, reducing unnecessary in-person contact between patients. Built integrated messaging, automated SMS notifications, and an administrative portal for managing patient data and site content.</p>
+</div>
 
-# SAP Ariba
-Developed demand forecasting models using time-series techniques including temporal regression, ARIMA, and vector autoregression, and validated model performance using a rolling-horizon backtesting framework.
+# Internships
+<div class="jlb-dark-section">
+	<h2 id="sap-ariba">SAP Ariba</h2>
+	<p>Developed demand forecasting models using time-series techniques including temporal regression, ARIMA, and vector autoregression, and validated model performance using a rolling-horizon backtesting framework.</p>
+</div>
 
-# Mylan
-Analyzed high-potential international markets by combining external demographic data with internal sales data, applying dimensionality reduction and regression modeling to identify expansion opportunities, and presenting findings to leadership.
+<div class="jlb-dark-section">
+	<h2 id="mylan">Mylan</h2>
+	<p>Analyzed high-potential international markets by combining external demographic data with internal sales data, applying dimensionality reduction and regression modeling to identify expansion opportunities, and presenting findings to leadership.</p>
+</div>
