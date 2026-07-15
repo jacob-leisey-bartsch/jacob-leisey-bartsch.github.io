@@ -11,18 +11,92 @@ Due to the confidential/proprietary nature of many of these projects, I am unabl
 
 # BNY
 <div class="jlb-dark-section">
-	<h2 id="dockerization">Dockerization</h2>
-	<p>Containerized our python applications to support the proper testing of applications prior to deployments, which led to a significant decrease in the number of required redeployments. Additionally, I assembled a set of Dockerfiles that allowed the test environments to access hard-to-reach internal package repositories.</p>
+	<h2 id="dockerization">Production Deployment of Internal Applications</h2>
+	<p>Goal:</p>
+	<ul>
+		<li>Transform internally developed, locally hosted applications into production-ready services via containerization.</li>
+	</ul>
+	<p>Tech Stack:</p>
+	<ul>
+		<li>Application Frameworks:
+			<ul>
+				<li>Streamlit (Python)</li>
+				<li>FastAPI (Python)</li>
+				<li>PyPI Server (Python)</li>
+				<li>Shiny (R)</li>
+			</ul>
+		</li>
+		<li>Containerization:
+			<ul>
+				<li>Docker</li>
+				<li>Docker Swarm</li>
+			</ul>
+		</li>
+		<li>Infrastructure:
+			<ul>
+				<li>Gitlab Runners on Linux-based servers</li>
+			</ul>
+		</li>
+	</ul>
+	<p>Results:</p>
+	<ul>
+		<li>Converted dozens of locally hosted applications into production-ready Docker containers that reduced environment-specific issues.</li>
+		<li>Enabled faster and more reliable releases that could be completed with the single click of a button.</li>
+	</ul>
+</div>
+
+<div class="jlb-dark-section">
+	<h2 id="dashboard-modernization">Dashboard Modernization</h2>
+	<p>Goal:</p>
+	<ul>
+		<li>Modernize the team's internal dashboard development process by identifying a framework that could better support the rapidly growing demand for dashboards while simultaneously reducing the development complexity and maintenance overhead.</li>
+	</ul>
+	<p>Tech Stack:</p>
+	<ul>
+		<li>Streamlit</li>
+		<li>Plotly Dash</li>
+	</ul>
+	<p>Results:</p>
+	<ul>
+		<li>Researched and established Streamlit as the preferred framework for new analytical applications, allowing the team to keep pace with rapidly increasing demand from both internal stakeholders and external clients.</li>
+		<li>Reduced average dashboard development time from approximately one month to one week, enabling the team to increase delivery capacity by roughly 4×.</li>
+	</ul>
 </div>
 
 <div class="jlb-dark-section">
 	<h2 id="python-packaging">Python Packaging</h2>
-	<p>Designed and maintained a multi-module Python package that standardized common functionality across projects, including portfolio uploads/downloads, return calculations, and API data retrieval.</p>
-</div>
-
-<div class="jlb-dark-section">
-	<h2 id="Dashboarding">Dashboarding</h2>
-	<p>Led internal research into state-of-the-art dashboarding technologies, presented findings to senior management, and ultimately convinced them to transition away from Dash and adopt Streamlit instead.</p>
+	<p>Goal:</p>
+	<ul>
+		<li>Develop a centralized Python package to consolidate shared business logic, data access utilities, and financial calculations used across multiple internal analytics applications.</li>
+	</ul>
+	<p>Tech Stack:</p>
+	<ul>
+		<li>Languages:
+			<ul>
+				<li>Python</li>
+			</ul>
+		</li>
+		<li>Core Functionality:
+			<ul>
+				<li>Portfolio uploads and downloads</li>
+				<li>Performance calculations</li>
+				<li>Data transformation utilities</li>
+				<li>Shared visualization components</li>
+			</ul>
+		</li>
+		<li>Package Deployment:
+			<ul>
+				<li>Gitlab Package Registry</li>
+				<li>Internally hosted PyPI Server</li>
+			</ul>
+		</li>
+	</ul>
+	<p>Results:</p>
+	<ul>
+		<li>Designed and maintained a reusable Python package that standardized functionality across our internal analytics projects.</li>
+		<li>Eliminated duplicated code by centralizing common business logic, reducing maintenance effort while improving code consistency.</li>
+		<li>Accelerated future application development by providing a shared library of tested, reusable components.</li>
+	</ul>
 </div>
 
 # VISIMO
