@@ -145,12 +145,81 @@ Due to the confidential/proprietary nature of many of these projects, I am unabl
 
 <div class="jlb-dark-section">
 	<h2 id="nixn">NIXN</h2>
-	<p>Developed a multi-page web application enabling construction safety specialists to record workplace safety violations and receive recommended remediation actions to reduce risk. Built an administrative portal allowing users to manage violations and remediation guidance.</p>
+	<p>Goal:</p>
+	<ul>
+		<li>Develop a browser-based application that allows construction safety professionals to preemptively and efficiently assess risk at their sites and prescribe optimal corrective actions to reduce injuries.</li>
+	</ul>
+	<p>Tech Stack:</p>
+	<ul>
+		<li>Application Layer:
+			<ul>
+				<li>Python (Django)</li>
+				<li>JavaScript (jQuery)</li>
+			</ul>
+		</li>
+		<li>Data Management:
+			<ul>
+				<li>PostgreSQL database for persistent storage of risks, violations, and remediation guidance</li>
+			</ul>
+		</li>
+		<li>User Interface:
+			<ul>
+				<li>Multi-page workflow for recording activity, violations, and generating corrective recommendations</li>
+				<li>Self-service administrative pages that allowed designated superusers to manage users, activities, and risk scores</li>
+				<li>Self-service reporting that allowed power-users the ability to generate comprehensive reports broken down along multiple key factors</li>
+			</ul>
+		</li>
+		<li>Deployment:
+			<ul>
+				<li>Docker containerization for reproducible deployment</li>
+			</ul>
+		</li>
+	</ul>
+	<p>Results:</p>
+	<ul>
+		<li>Built and deployed a multi-page web application that simplified the process of documenting construction safety violations and retrieving recommended corrective actions.</li>
+		<li>Centralized safety observations and remediation guidance in a searchable database, reducing reliance on manual documentation and improving consistency across inspections.</li>
+		<li>Delivered an intuitive interface that enabled field personnel to quickly record findings and generate reports with minimal training.</li>
+	</ul>
 </div>
 
 <div class="jlb-dark-section">
 	<h2 id="virtual-waiting-room">Virtual Waiting Room</h2>
-	<p>Developed a multi-page web application that enabled medical offices to operate virtual waiting rooms during the pandemic, reducing unnecessary in-person contact between patients. Built integrated messaging, automated SMS notifications, and an administrative portal for managing patient data and site content.</p>
+	<p>Goal:</p>
+	<ul>
+		<li>Develop a web-based virtual waiting room platform that enabled medical practices to safely manage patient check-in, communication, and appointment flow while minimizing unnecessary in-person contact during the COVID-19 pandemic.</li>
+	</ul>
+	<p>Tech Stack:</p>
+	<ul>
+		<li>Application Layer:
+			<ul>
+				<li>Python (Django)</li>
+				<li>JavaScript (jQuery)</li>
+			</ul>
+		</li>
+		<li>Database:
+			<ul>
+				<li>PostgreSQL</li>
+			</ul>
+		</li>
+		<li>Real-Time Communication:
+			<ul>
+				<li>Python (websockets)</li>
+				<li>Redis</li>
+			</ul>
+		</li>
+		<li>Messaging:
+			<ul>
+				<li>Twilio SMS integration</li>
+			</ul>
+		</li>
+	</ul>
+	<p>Results:</p>
+	<ul>
+		<li>Built and deployed a multi-page web application that allowed patients to remotely check in, receive appointment updates, and communicate with medical staff in real-time without entering crowded waiting rooms.</li>
+		<li>Developed an administrative portal for managing patient information, appointment workflows, and site content, providing healthcare staff with a centralized management interface.</li>
+		<li>Designed the application to meet HIPAA requirements by ensuring all protected health information remained on-premises, implementing tokenization for personally identifiable information (PII), and adhering to strict security practices throughout the application architecture.</li>
+	</ul>
 </div>
 
 # Internships

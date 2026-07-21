@@ -23,6 +23,11 @@ While I first learned to play chess when I was 4 years old, I only truly became 
 I absolutely love exploring and experiencing different cities and countries! Here are some favorite sites from my more recent excursions:
 
 ![Porto](/travel/porto.jpg)
-![Prague](/travel/prague.JPG)
-![Vienna](/travel/rathaus.JPG)
+*Porto: Luís I Bridge*
 
+![Prague](/travel/prague.JPG)
+*Prague: Church of Our Lady before Týn Christmas Market*
+
+![Vienna](/travel/rathaus.JPG)
+*Vienna: Rathausplatz Christmas Market*
+ 
